@@ -1,15 +1,18 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import crossIcon from './imgs/cross-icon.png'
 
-export default function NavBar() {
+
+export default function NavBar({scrollForm, navBarRef}) {
 
   const [navVisible, setNavVisible] = React.useState(false);
+  const navigate = useNavigate();
 
 
 
   return (
-    <div className='absolute z-20 top-0 left-0 flex w-full text-white justify-between items-center p-8 xl:px-14'>
+    <div ref={navBarRef} className='absolute whole-nav-bar z-20 top-0 left-0 flex w-full text-white justify-between items-center p-8 xl:px-14'>
       <h2 className='logo-text text-xl font-bold xl:text-2xl'>j&global</h2>
 
       
@@ -18,13 +21,28 @@ export default function NavBar() {
       <img onClick={() => setNavVisible(false)} draggable={false} className='absolute top-5 right-5 cursor-pointer md:hidden' src={crossIcon} alt='' />
 
       <nav className='flex text-xl flex-col nav-section gap-8 items-center sm:text-left sm:items-start md:flex-row md:text-sm xl:gap-10'>
-       <NavLink>About</NavLink>
-       <NavLink>Discover</NavLink>
-       <NavLink>Services</NavLink>
-       <NavLink>Signup</NavLink>
+       <Link to={'home'}>Home</Link>
+       <Link 
+         className='cursor-pointer' 
+         to={"about"} 
+         duration={500}
+         spy={true}
+         smooth={true}>About</Link>
+
+       <Link 
+         className='cursor-pointer' 
+         to={"discover"} 
+         duration={500}
+         smooth={true}>Discover</Link>
+
+       <Link 
+         className='cursor-pointer' 
+         to={"services"} 
+         duration={500}
+         smooth={true}>Services</Link>
       </nav>
 
-      <button className='bg-primary p-3 rounded-full px-6 md:text-sm xl:hidden'>
+      <button onClick={scrollForm} className='bg-primary p-3 rounded-full px-6 md:text-sm xl:hidden'>
         signup
       </button>
 
@@ -39,7 +57,7 @@ export default function NavBar() {
         <div className='origin-right scale-x-75'></div>
       </div>
 
-      <button className='bg-primary p-3 rounded-full px-6 md:text-sm hidden xl:inline-block xl:text-base'>
+      <button onClick={scrollForm} className='bg-primary p-3 rounded-full px-6 md:text-sm hidden xl:inline-block xl:text-base'>
         signup
       </button>
       

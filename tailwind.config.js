@@ -29,8 +29,14 @@ module.exports = {
       "darker": "#111",
       "white": "#f5f5f5",
       "gray": "#ccc",
+      "darkGray": "#555",
       "transparent": "rgba(0,0,0,0.0)",
-      "primary": "#B05FFD"
+      "overlay": "rgba(0,0,0,0.6)",
+      "primary": "#B05FFD",
+
+      "tab-red": "#EA5243",
+      "tab-yellow": "#F4B632",
+      "tab-green": "#6CC861"
     },
 
     extend: {},

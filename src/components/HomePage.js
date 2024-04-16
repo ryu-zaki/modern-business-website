@@ -4,7 +4,7 @@ import bgVideo from './vids/bgvideo.mp4'
 export default function HomePage() {
   return (
     <div className='home-page z-10 inset-0 h-screen flex justify-center items-center'>
-        <video autoPlay muted loop className='fixed -z-10 h-full w-full inset-0 object-cover'>
+        <video autoPlay muted loop className='fixed bg-dark -z-10 h-full w-full inset-0 object-cover'>
             <source src={bgVideo} type='video/mp4' />
         </video>
 

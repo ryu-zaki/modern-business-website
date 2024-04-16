@@ -59,7 +59,7 @@ export default function Footer() {
   });
 
   return (
-    <footer className='bg-dark text-white py-16 lg:pb-10'>
+    <footer className='bg-dark relative text-white py-16 lg:pb-10'>
         <div className='flex flex-col items-center gap-8 sm2:flex-row sm2:justify-center lg:gap-14 xl:gap-20'>
             {categories}
         </div>

@@ -2,11 +2,13 @@ import React from 'react'
 import spaceImg from './imgs/space.svg';
 import onlineImg from './imgs/online.svg';
 import realtimeImg from './imgs/real-time.svg';
+import { Element } from 'react-scroll';
 
 
-export default function Services() {
+export default function Services({name}) {
   return (
-    <section className='flex flex-col relative z-10 gap-16 items-center py-14 xl:py-24'>
+    <section>
+      <Element className='flex flex-col relative z-10 gap-16 items-center py-14 xl:py-24' name={name}>
         <div className='text-center'>
           <h2 className='text-2xl font-bold lg:text-3xl xl:text-5xl'>Our Services</h2>
           <p className='text-primary text-sm mt-2 lg:text-base xl:mt-4'>take a look at our services</p>
@@ -30,6 +32,7 @@ export default function Services() {
               sourceImg={onlineImg}
               />
         </article>
+        </Element>
     </section>
   )
 }
