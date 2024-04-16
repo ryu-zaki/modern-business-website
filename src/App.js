@@ -53,30 +53,30 @@ function App() {
      <article className='main-sec-con'>
      <SectionTemp 
        name={"about"}
-       subTitle={"Mauris tempor interdium"} 
-       btnText={"start today"} 
-       title={"Proin condimentum diam"}
+       subTitle={"We create value and services"} 
+       btnText={"explore"} 
+       title={"J&Global Services"}
        sourceImg={desigNotes}  
-       desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat elit non nulla tempor pellentesque. Donec pretium at augue eu varius. Aenean egestas commodo ante, at ullamcorper enim mattis nec. Pellentesque a augue metus. Vestibulum lobortis viverra fringilla. Aenean imperdiet massa nec eros porta vehicula. Nullam facilisis tincidunt sem et sodales. Cras consectetur at magna id congue. Integer dignissim tortor ut sem ornare mattis."} />
+       desc={"At J&Global Agency, we specialize in providing comprehensive web development solutions tailored to meet the unique needs of our clients. Our team of experienced developers and designers are committed to delivering high-quality, scalable, and user-friendly websites that drive results. Explore our range of services below:"} />
 
      <SectionTemp 
       name={'discover'}
-       subTitle={"Mauris tempor interdium"} 
-       btnText={"start today"} 
-       title={"Proin condimentum diam"}
+       subTitle={"Explore our value"} 
+       btnText={"explore"} 
+       title={"Discover our agency"}
        sourceImg={space}  
-       desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat elit non nulla tempor pellentesque. Donec pretium at augue eu varius. Aenean egestas commodo ante, at ullamcorper enim mattis nec. Pellentesque a augue metus. Vestibulum lobortis viverra fringilla. Aenean imperdiet massa nec eros porta vehicula. Nullam facilisis tincidunt sem et sodales. Cras consectetur at magna id congue. Integer dignissim tortor ut sem ornare mattis."}
+       desc={"Understand the essence of J&Global Agency. Here, you'll uncover our unique approach to web development, blending cutting-edge technology with creative design to produce exceptional results. Explore our portfolio of successful case studies spanning various industries, and hear directly from our satisfied clients about their experiences with our services. Delve into the technologies we employ and meet our team of skilled developers, designers, and digital strategists dedicated to excellence. "}
      />
      
      <Services name={"services"} />
 
 
      <SectionTemp 
-       subTitle={"Mauris tempor interdium"} 
-       btnText={"start today"} 
-       title={"Proin condimentum diam"}
+       subTitle={"What we see in the future"} 
+       btnText={"read more"} 
+       title={"Our Goals"}
        sourceImg={desigNotes}  
-       desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam volutpat elit non nulla tempor pellentesque. Donec pretium at augue eu varius. Aenean egestas commodo ante, at ullamcorper enim mattis nec. Pellentesque a augue metus. Vestibulum lobortis viverra fringilla. Aenean imperdiet massa nec eros porta vehicula. Nullam facilisis tincidunt sem et sodales. Cras consectetur at magna id congue. Integer dignissim tortor ut sem ornare mattis."}
+       desc={"Our core goals revolve around empowering businesses through innovative web solutions that drive growth and success. We prioritize client satisfaction by delivering tailored, high-quality web solutions that align with their objectives and enhance their online presence. Our commitment to continuous innovation ensures we stay ahead of technological advancements and design trends, providing cutting-edge services that set our clients apart from the competition."}
      />
 
      </article>

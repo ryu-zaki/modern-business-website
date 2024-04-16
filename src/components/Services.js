@@ -15,20 +15,20 @@ export default function Services({name}) {
         </div>
         <article className='flex flex-col items-center catalog-con gap-10 text-dark lg:flex-row lg:gap-5 lg:items-stretch lg:px-8 xl:gap-8'>
             <CatalogBox 
-              title={"Donec qius"}
-              desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum dapibus ligula sit amet lobortis. Praesent sit amet pretium enim. Donec sed diam ut est sodales malesuada id in odio."}
+              title={"Custom Websites"}
+              desc={"We design and develop bespoke websites from scratch, ensuring they are tailored to your business requirements and objectives."}
               sourceImg={spaceImg}
               />
 
             <CatalogBox 
-              title={"Donec qius"}
-              desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum dapibus ligula sit amet lobortis. Praesent sit amet pretium enim. Donec sed diam ut est sodales malesuada id in odio."}
+              title={"E-commerce Solutions"}
+              desc={"We create robust and secure e-commerce platforms that enable seamless online transactions, driving sales and enhancing customer experience."}
               sourceImg={realtimeImg}
               />
 
             <CatalogBox 
-              title={"Donec qius"}
-              desc={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dictum dapibus ligula sit amet lobortis. Praesent sit amet pretium enim. Due. Donec pretium at augue eu varius. Aenean egestas commodo ante, at ullamcorper enim mattis nec."}
+              title={"Hosting and Domain"}
+              desc={"We provide reliable hosting and domain registration services to ensure your website is accessible and secure at all times."}
               sourceImg={onlineImg}
               />
         </article>
