@@ -26,7 +26,7 @@ export default function NavBar({scrollForm, navBarRef}) {
 
       <nav className='flex text-xl flex-col nav-section gap-8 items-center sm:text-left sm:items-start md:flex-row md:text-sm xl:gap-10'>
        <Link 
-       onClick={handleClick}
+         onClick={handleClick}
          to={'home'}
          className='cursor-pointer' 
          duration={500}
